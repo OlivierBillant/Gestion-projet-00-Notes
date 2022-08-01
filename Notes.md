@@ -17,7 +17,54 @@ Son organisation comme sa taille dépendront de la nature et du coeur de métier
 Définition des métiers **verticaux** (*e.g.* dev, assitance, helpdesk...) par opposition aux **tranversaux** (*e.g.* qualité, securité...)
 
 ### Organisation du projet
-- **MOA** : Commanditaire du projet
+- **MOA** : Commanditaire du projet, ennonce les règles métier. Fixe les contraines. Peut être assitée par une *AMOA*.
 - **MOE** : Equipe réaiisant le projet
 - **Directeur vs. chef** de projet : selon la taille du projet. Assurera la coordination des différents chefs de projet.
 - **Comité de projet** : Orientera les options proposées par les chefs de projet.
+- **Comité de pilotage** : Assurera le suivi du projet par points d'étapes des chefs de projet.
+- **ROI** : depense/economies-realisées/mois = N moins. Une bonne échelle de temps dans une entreprise établie sera de 3 ans.
+- **ETP** : une personne à plein temps sur un projet.
+<br>
+
+La matrice **RACI** identifie les acteurs mobilisés sur et autour du projet :  
+- Responsable de réalisation
+- Approbateur : un seul approbateur par activité
+- Consulté
+- Informé  
+<br>
+
+|  Activité/Partenaire |  MOA | Equipe Projet  | DF  | Exploit-Inf  | SSI  |
+|---|---|---|---|---|---|
+| Collecter les besoins  | A  | R  |   |   |   |
+| Analyser les besoins fonctionnels |  A | R  |  |   | C  |
+| Analyser les besoins techniques  |  I |  R |  I | A  | C  |
+| Acheter, installer et configurer un nouveau serveur    | I  |  A |  A/R | R  | R  |
+
+Il faudra ici découper la dernière activité.  
+
+<br>
+
+**Etapes de gestion de projet**
+```
+1. Cadrage et choix de solution
+2. Réalisation de tests
+3. Recette et mise en production
+```
+
+**1. Cadrage et choix de solution**  
+Realisation de **note de cadrage** (aka bon de commande, lettre de mission...) construite autour d'un avant projet.  
+Chaque projet sera rattaché à un budget annuel de sa direction de référence.
+<br>  
+**2a. Réalisation : modèle en cascade**  
+Importance de la création des spécifications techniques initiales.  
+Plans de tests : d'**intégration** ou de **validation** (git, Jenkins et Selenium)  
+Conception et développement  
+<br>  
+
+**2b. Réalisation : modèle en V**  
+On coupe le modèle cascade en plusieurs morceaux afin de rendre chaque élément réalisable en cascade.
+<br>
+
+**2b. Réalisation : modèle SCRUM**  
+On découpe le projet en user Stories basées sur les actions utilisateurs qui seront liées à des techical stories.  
+L'ensemble de stories s'appellant le product backlog.
