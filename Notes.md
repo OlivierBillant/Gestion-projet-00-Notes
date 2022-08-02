@@ -59,12 +59,38 @@ Chaque projet sera rattaché à un budget annuel de sa direction de référence.
 Importance de la création des spécifications techniques initiales.  
 Plans de tests : d'**intégration** ou de **validation** (git, Jenkins et Selenium)  
 Conception et développement  
-<br>  
 
 **2b. Réalisation : modèle en V**  
 On coupe le modèle cascade en plusieurs morceaux afin de rendre chaque élément réalisable en cascade.
-<br>
 
 **2b. Réalisation : modèle SCRUM**  
 On découpe le projet en user Stories basées sur les actions utilisateurs qui seront liées à des techical stories.  
 L'ensemble de stories s'appellant le product backlog.
+
+**3. Recette et mise en production**  
+Doc de recette  
+<br>
+
+### Cahier des charges et appel d'offre
+Cahier des charges exprime le besoin, annexé au contrat
+
+### Spécifications administratives
+Sont gérées côté MAO.
+<br>    
+
+### TP : Systeme d'évaluation de cahier des charges AAP Gestion congés
+
+1. Utilisation à distance
+2. Utilsiation locale
+3. ROI
+4. Cout maintenance annuelle
+5. Evolutivité
+6. Accessibilité
+7. Besoin de formation adoption
+8. Nombre de clic pour valider la procédure
+9. Cout stockage
+10. Délai mise en prod
+
+PBS : product breakdown structure. Déconstruire le projet pro en tache.
+
+### TP utilisation de gantt project.
