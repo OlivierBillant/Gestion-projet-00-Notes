@@ -94,3 +94,52 @@ Sont gérées côté MAO.
 PBS : product breakdown structure. Déconstruire le projet pro en tache.
 
 ### TP utilisation de gantt project.
+
+## Estimation de la charge
+Attention la charge est en temps/homme, la durée en temps.  
+Ronde Delphi
+Methode d evaluation analytique : unité d'oeuvre à répartir en typologie de complexité qui associe à un degré (facile-normal-difficile) une certaine charge.
+
+## Démarrage du projet
+
+## Gestion des risques
+
+| Risque  | Criticité  | Impact  | Probabilité  | Prévention  | Protection  | Détection  |
+|---|---|---|---|---|---|---|
+| Evolution règlementaire  | 8  | 4  | 2  | N/A  | Veille documentaire  | 3 => 24/125 |
+| Reprise Covid  | 8  | 2  | 4  | Règles sanitaires, Vaccination  | Procédures télétravail  | 1 => 8/125 |
+| Epidémie MonkeyPox  |  5 | 5  | 1  | Vaccination  | Veille info  | 4 => 20/125 |
+| Augmentation Cout matériel | 16  | 4  | 4  | Budgetisation | Commande anticipées  | 2 => 32/125  |
+|  Congé grossesse patho Marie|  9 | 3  | 3  | Paraige technique  | Remplacement  | 1 => 9/125  |
+
+## Budget
+Les RH sont un des pôles de dépense principaux. Pour chaque profil de salarié, le controlleur de gestion va écvaluer le cout moyen du profil.
+
+Le calcul du coût total annuel : 
+- CDA : 30k€ brut annuel + 50% de cs + 20% de couts de structure +30% ETP supports soit x2 salaire.  
+- Calcul du coup d'un jour homme : Nb jours opérationnels/an. Soit ici 30k€*2/200 = 300j/an. Il faudra donc appliquer une marge à la tarification.
+
+```
+Cout total = Cout Jour Homme (Brut*charges/joursOp) * Nb j.h
+```  
+|Catégorie|	Nb J.h	|Salaire brut	|Facteur Charges|	Jours opérationnels	|Charges	|Charges tot	|Economie/mois
+|---|---|---|---|---|---|---|---|							
+|CDA	|130|	30000	|2|	200|	39000|	127000|	25000
+|CP	|70	|40000|	2	|200	|28000|	**ROI**	|
+|CPu	|50	|50000|	2	|200	|25000	|**5.08**|	
+|Prestation|||||					20000	|	
+Matériel|		|||			|15000	|	
+
+## Bilan de projet
+### Focus fait sur la réunion de débriefing.
+Utilisation du KISS, Keep, Improve, Start, Stop sorte de SWOT agile.
+
+## Qualité : Standart ISO-9000
+On y distinguera un rôle **fournisseur** (*e.g.* équipe projet) et **client** (*e.g.* service rh). Les attentes et engagements des parties seront regroupés dans une convention/contrat de service (SLA : Service Level Agreement).  
+**Plan d'assurance qualité** : description des actions apportant la qualité aux projets : réunion de lancement, de pilotage, documentation, audits de code source, N cas de test, revue de code source...  
+
+Processus passera par PDCA (Plan Do Check Act) ou roue de Leming.
+
+Le standart traite du management de la qualité et permet la certification au niveau de l'entreprise (certif ISO-9001). Il faut pour ce faire satisfaire 22 critères.
+
+## Techniques de communication
