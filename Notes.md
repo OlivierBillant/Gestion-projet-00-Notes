@@ -143,3 +143,36 @@ Processus passera par PDCA (Plan Do Check Act) ou roue de Leming.
 Le standart traite du management de la qualité et permet la certification au niveau de l'entreprise (certif ISO-9001). Il faut pour ce faire satisfaire 22 critères.
 
 ## Techniques de communication
+
+Exercice :  
+Vous êtes responsable du projet « Optiprint » ayant les caractéristiques
+suivantes :
+- L’équipe projet comprend :
+    - 3 ressources internes (2 développeurs et 1 Chef
+de projet) 
+    - 1 prestataire expert éditique (compétence rare et non
+disponible au sein de votre entreprise).
+- Le projet a démarré en janvier et doit se terminer fin janvier de l’année
+suivante.
+- Le budget alloué comprend les 4 ressources à plein temps.  
+<br>
+
+- Coût moyen d’une ressource interne = 6 K€/mois
+- Le Prestataire de service sous contrat d’un an coûte 10 K€/mois
+- Economie permise par OPTIPRINT = 30 K€/mois
+
+<br>
+
+Fin octobre, alors que vous êtes en train de finaliser la phase de développement
+(conforme au planning), la maîtrise d’ouvrage exprime son souhait de suspendre
+Optiprint pendant 5 mois.  
+**Motif : chef de projet utilisateur indisponible.**  
+Travaux demandés : réaliser une présentation de ce dossier au comité de Pilotage
+
+**Proposition :**   
+Notre équipe, composée de 3 ETP interne additionnés d'1 ETP en prestation sur la partie éditique travaille depuis janvier dernier sur le projet OptiPrint dont nous assurons ensemble le pilotage. Le projet est prévu pour durer 12 mois, nous sommes actuellement en phase de finalisation du bloc de développement mobilisant activement les CDA. 
+
+Nous avons recu de la MOA une demande de mise en pause du projet pour cause d'absence du Chef de projet utilisateur sur la période.
+Cela représente 3*6 = 18k€ de ressources internes par mois + 10k€ de prestation soit 28k€ par mois pendant 5 mois s'ajoutant aux 3 mois restant sur le projet. L'économie permise par le projet est de l'ordre de 30k€ par mois soit une augmentation du ROI de la durée de la mise en pause.
+
+Les CDA arrivant au bout du bloc de développement pourraient être mobilisés sur d'autres projets dans l'intervalle limitant nos couts. Alternativement, l'absence indiquée du CPu ne sera pas forcément limitante pour les étapes suivantes du projet impliquant le testeing et la réalisation de la documentation. Il est ainsi proposé que le projet continue avec un suivi renforcé du comité de pilotage dans l'intervalle.
